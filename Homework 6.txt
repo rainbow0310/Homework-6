@@ -1,0 +1,20 @@
+Homework 6
+
+2. a) What is a particle system in Unity? Explain any scenario where particle systems may be useful (you can create your own scenarios or point to existing games that you’re familiar with).
+
+	A particle system is used to create visual effects by simulating particles like smoke, fire, sparks, explosions, or rain. It enhances the realism and dynamics of the game environment. A particle system can be useful when creating a physical representation of gunfire. Moreover, when a gun fires, a muzzle flash effect can be created using a particle system. This system would emit particles representing sparks and fire, making the gun firing animation look more realistic and impactful.
+
+ a) Explain the terms animation controller, animation, and transition in Unity (be sure elaborate on the exit time and condition transition criteria) 
+	Animation Controller: decides which animations a GameObject should perform and when. It represents a state machine, managing the flow between different animation states.
+
+	Animation: the specific motion that a game object experiences while in a specific state. It is the individual actions that a GameObject can perform, such as walking, running, jumping, or attacking. They define the movement and appearance of the GameObject over time.
+
+	Transition: refers to the movement from one state to another based on a condition or exit time. For example, a transition might control how smoothly a character shifts from walking to running.
+
+		Exit Time: a property that defines that time after which a transition from one state to another should take place regardless of any other factor within the game. Moreover, it defines how long a GameObject should stay in a particular animation state before automatically transitioning to another state. For example, you might set the exit time for an idle animation to 5 seconds, meaning that after 5 seconds of standing still, the avatar will automatically start walking. 
+
+		Conditions: instead of relying only on time, a condition-based transition occurs only when a specific requirement is met. These conditions are typically defined using triggers or Boolean variables and are more stringent in nature. For instance, in the zombie game, the zombie transitions from a walking state to an attacking state only when the player comes within a certain range.
+
+		
+	
+		
